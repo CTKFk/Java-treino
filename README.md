@@ -2,6 +2,7 @@
 
 # Teste github #
 **Conversão temp codigo**
+
 import java.util.Scanner;
 
 public class ConversãodeTemp {
@@ -22,7 +23,9 @@ public class ConversãodeTemp {
 
     }
 }
+
 **triangulo codigo**
+
 import java.util.Scanner;
 
 
@@ -55,7 +58,9 @@ public class triangle {
         }
     }
 }
+
 **Verificador de conta codigo**
+
 import java.util.Scanner;
 
 public class VerificadordeConta {
