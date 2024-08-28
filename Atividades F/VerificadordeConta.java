@@ -19,8 +19,9 @@ public class VerificadordeConta {
             
             
             System.out.printf("O número da conta completo é: %06d-%d%n", Integer.valueOf(numeroConta), digitoVerificador);
+            }
         }
-    }
+    }   
 }
 /*
 Alternativa com int e restrição de numero
