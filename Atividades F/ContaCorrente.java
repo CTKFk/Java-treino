@@ -1,7 +1,7 @@
 public class ContaCorrente {
     // atributos
-    private int numeroConta1;
-    private String titular1;
+    private final int numeroConta1;
+    private final String titular1;
     private double saldo;
     
     // construtor
