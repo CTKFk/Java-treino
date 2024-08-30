@@ -39,17 +39,4 @@ public class ContaCorrente {
 
     }
 }
-/*Alternativa com método para retornar uma conta corrente
-        ContaCorrente cc = method();
-        
-        cc.depositar(500.0);
-        cc.sacar(200.0);
-        cc.exibirDados();
-    }
-    //  método para retornar uma conta corrente
-    private static ContaCorrente method() {
-        ContaCorrente cc = new ContaCorrente(1234, "John Doe", 0.0);
-        return cc;
-    }
-}
-*/
+
