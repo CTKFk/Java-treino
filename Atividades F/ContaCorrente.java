@@ -31,9 +31,12 @@ public class ContaCorrente {
     //  método main
     public static void main(String[] args) {
         ContaCorrente cc = new ContaCorrente(1234, "John Doe", 0.0);
-        cc.depositar(500.0);
-        cc.sacar(600.0);
         cc.exibirDados();
+        cc.depositar(500.0);
+        System.out.println("Saldo após depósito: " + cc.saldo);
+        cc.sacar(200.0);
+        System.out.println("Saldo após saque: " + cc.saldo);
+
     }
 }
 /*Alternativa com método para retornar uma conta corrente
