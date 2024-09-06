@@ -52,7 +52,7 @@ public static void main (String args[])
 		Date data = new Date(06, 04, 2024);
 		System.out.println("Meu aniversário:"  + data.toString());
 
-        data.setData(29, 02, 2023);
+        data.setData(29, 02, 2024);
 		System.out.println("Que data é essa?" + data.toString());
 
 
