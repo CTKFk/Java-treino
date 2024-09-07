@@ -6,15 +6,15 @@ public class ContaCorrenteSL {
     private final double numeroConta;
     private final String titular;
     private double saldo;
-    private double limite;  // Novo atributo para limite
+    private double limite;  
 
-    // Construtor atualizado para incluir limite
+
     public ContaCorrenteSL(double numeroConta, String titular, double saldo, double limite)
     {
         this.numeroConta = numeroConta;
         this.titular = titular;
         this.saldo = saldo;
-        this.limite = limite;  // Definir limite
+        this.limite = limite;  
     }
 
     public void deposito(double valor)
@@ -53,12 +53,12 @@ public class ContaCorrenteSL {
         System.out.println("Número da conta: " + numeroConta);
         System.out.println("Titular: " + titular);
         System.out.println("Saldo: " + saldo);
-        System.out.println("Limite: " + limite);  // Exibe o limite
+        System.out.println("Limite: " + limite); 
     }
 
     public static void main(String[] args)
     {
-        ContaCorrenteSL cc1 = new ContaCorrenteSL(12345, "João da Silva", 3500, 4000.0);  // Adicionado limite
+        ContaCorrenteSL cc1 = new ContaCorrenteSL(12345, "João da Silva", 3500, 4000.0); 
         cc1.verDados();
 
         Scanner entrada = new Scanner(System.in);
