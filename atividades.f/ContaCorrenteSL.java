@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 
@@ -61,6 +62,7 @@ public class ContaCorrenteSL {
         ContaCorrenteSL cc1 = new ContaCorrenteSL(12345, "João da Silva", 3500, 4000.0); 
         cc1.verDados();
 
+        @SuppressWarnings("resource")
         Scanner entrada = new Scanner(System.in);
 
         System.out.printf("\n Valor para deposito em c1: ");
