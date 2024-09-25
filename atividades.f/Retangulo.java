@@ -51,22 +51,19 @@ public class Retangulo
       
       public boolean isQuadrado()
       {
-         if (altura == base)
-            return true;
-         else
-            return false;
+          return altura == base;
       }
       public void exibeDados() 
       {
-         int perimetro = calcularPerimetro();
-         int area = calcularArea();
-         boolean quadrado = isQuadrado();
+         int localPerimetro = calcularPerimetro();
+         int localArea = calcularArea();
+         boolean localQuadrado = isQuadrado();
          
          System.out.println("Altura: " + altura);
          System.out.println("Base: " + base);
-         System.out.println("Perímetro: " + perimetro);
-         System.out.println("Área: " + area);
-         System.out.println("É quadrado: " + quadrado);
+         System.out.println("Perímetro: " + localPerimetro);
+         System.out.println("Área: " + localArea);
+         System.out.println("É quadrado: " + localQuadrado);
       }
    
 }
