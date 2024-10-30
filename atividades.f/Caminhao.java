@@ -3,10 +3,10 @@ public class Caminhao extends Veiculo
    private int numEixos;
    private int capacidade;
    
-   public Caminhao(String modelo, String placa, int anoFabr, int numEixos, int capacidade, double valor){
+   public Caminhao(String modelo, String placa, int anoFabr, int numEixos, double capacidade2, double valor){
       super(modelo, placa, anoFabr, valor);
       setEixos(numEixos);
-      setCapacidade(capacidade);
+      setCapacidade(capacidade2);
    }
    
    public void setEixos(int numEixos){

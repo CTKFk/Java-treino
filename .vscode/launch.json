@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BancoTerminal",
+            "request": "launch",
+            "mainClass": "BancoTerminal",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "Caixa",
+            "request": "launch",
+            "mainClass": "Caixa",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "CalConsumoDeDados",
+            "request": "launch",
+            "mainClass": "CalConsumoDeDados",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "Circulo",
+            "request": "launch",
+            "mainClass": "Circulo",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "ContaCorrente",
+            "request": "launch",
+            "mainClass": "ContaCorrente",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "ContaCorrenteSL",
+            "request": "launch",
+            "mainClass": "ContaCorrenteSL",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "ConversorGBparaMB",
+            "request": "launch",
+            "mainClass": "ConversorGBparaMB",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "ConversãodeTemp",
+            "request": "launch",
+            "mainClass": "ConversãodeTemp",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "Date",
+            "request": "launch",
+            "mainClass": "Date",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "Enigma",
+            "request": "launch",
+            "mainClass": "Enigma",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "MediaTurma",
+            "request": "launch",
+            "mainClass": "MediaTurma",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "MesDias",
+            "request": "launch",
+            "mainClass": "MesDias",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "TesteRetangulo",
+            "request": "launch",
+            "mainClass": "TesteRetangulo",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "VerificadordeConta",
+            "request": "launch",
+            "mainClass": "VerificadordeConta",
+            "projectName": "Java-treino_c13510c6"
+        },
+        {
+            "type": "java",
+            "name": "triangle",
+            "request": "launch",
+            "mainClass": "triangle",
+            "projectName": "Java-treino_c13510c6"
+        }
+    ]
+}
