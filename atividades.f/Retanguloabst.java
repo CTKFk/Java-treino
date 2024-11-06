@@ -1,7 +1,7 @@
-public class Retangulo2 extends FormaGeometrica
+public class Retanguloabst extends FormaGeometrica
 {
    private double base, altura;
-   public Retangulo2(double base, double altura)
+   public Retanguloabst(double base, double altura)
    {
       super.setLados(4);
       setBase(base);
@@ -20,11 +20,13 @@ public class Retangulo2 extends FormaGeometrica
       else this.altura = altura;
    }
    
+   @Override
    public double area()
    {
       return base * altura;
    }
    
+   @Override
    public void imprime()
    {
       System.out.println("Dados do Retangulo");

@@ -1,5 +1,4 @@
-import java.lang.Math;
-public class Circulo2 extends FormaGeometrica
+public class Circuloabst extends FormaGeometrica
 {
    private double raio;
    public void setRaio(double raio)
@@ -8,15 +7,17 @@ public class Circulo2 extends FormaGeometrica
       else this.raio = raio;
    }
    
-   public Circulo2 (double raio)
+   public Circuloabst (double raio)
    {
       setRaio(raio);
    }
    
+   @Override
    public double area()
    {
       return (Math.PI * Math.pow(raio, 2));
    }
+   @Override
    public void imprime()
    {
       System.out.println("Dados do Circulo");

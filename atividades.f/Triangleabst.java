@@ -1,7 +1,7 @@
-public class Triangulo2 extends FormaGeometrica
+public class Triangleabst extends FormaGeometrica
 {
    private double base, altura;
-   public Triangulo2(double base, double altura)
+   public Triangleabst(double base, double altura)
    {
       super.setLados(3);
       setBase(base);
@@ -20,11 +20,13 @@ public class Triangulo2 extends FormaGeometrica
       else this.altura = altura;
    }
    
+   @Override
    public double area()
    {
       return (base * altura)/2;
    }
    
+   @Override
    public void imprime()
    {
       System.out.println("Dados do Triangulo");
